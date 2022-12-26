@@ -1,7 +1,7 @@
 # This is a Simple tutorial on how to use Markdown
 
 Instructions to setup GraphQL in a Django Project
-![GraphQL Logo](/GraphQL_Logo.svg.png)
+### ![GraphQL Logo](/GraphQL_Logo.svg.png)
 
 ### [Graphene Documentation](https://docs.graphene-python.org/projects/django/en/latest/)
 ---
@@ -54,8 +54,26 @@ class Query(graphene.ObjectType):
 schema = graphene.Schema(query=Query)
 ```
 
-> Live and let live
+<!-- > Live and let live
 > -- <cite> Someone</cite>
 
 ## RoadMap
-- [ ] Task 1
+- [ ] Task 1 -->
+
+---
+
+| Name | Current State | Next State | 
+|:-----: |:-----:|:-----: |
+| First| Green| Red|
+| Second| Red| Green|
+| Third| Yellow| Orange|
+
+<details>
+    <summary>Section Header</summary>
+    Section Body which is hidden
+</details>
+
+## Foot Notes
+Happy Coding, I love Django <3 [^1]
+## Footer
+[^1]: By ArkelyScorpion
