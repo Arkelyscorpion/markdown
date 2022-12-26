@@ -1,16 +1,22 @@
 # This is a Simple tutorial on how to use Markdown
 
 Instructions to setup GraphQL in a Django Project
+![GraphQL Logo](/GraphQL_Logo.svg.png)
 
+### [Graphene Documentation](https://docs.graphene-python.org/projects/django/en/latest/)
+---
 **Table of Contents**
-
-1. Graphene Installattion
+1. [Why GraphQL](#why-graphql)
+1. [Graphene Installattion](#graphene-installation)
     1. Even i dont know how to do this.
-1. Creating Schemas
+1. [Creating Schemas](#cookbookschemapy)
 1. Using Graphiql
+---
+## Why GraphQL
+- Get only the data you want
+- Easier to manage the endpoints
 
 ## Graphene Installation
-
 Install graphene using the following command : `pip insstall  django_graphene`
 
 # cookbook/schema.py
@@ -47,3 +53,9 @@ class Query(graphene.ObjectType):
 
 schema = graphene.Schema(query=Query)
 ```
+
+> Live and let live
+> -- <cite> Someone</cite>
+
+## RoadMap
+- [ ] Task 1
